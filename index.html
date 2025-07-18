@@ -1,0 +1,86 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2025/04/solo-leveling-sung-jin-woo-1.jpg"
+                    alt="Logo" />
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profile.html">Our Profile</a></li>
+                <li><a href="portofolio.html">Portfolio</a></li>
+                <li><a href="#message">Message Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1 id="welcome"></h1>
+            <p>Sistem Informasi</p>
+            <div class="banner">
+                <img src="https://www.hostinger.com/in/tutorials/wp-content/uploads/sites/52/2022/04/web-developer-portfolio.png"
+                    alt="Banner" />
+            </div>
+        </section>
+
+        <section class="headquarter">
+            <h2>Skill</h2>
+            <div class="cities">
+                <div class="city">
+                    <div class="circle">
+                        <img src="https://s3-alpha.figma.com/hub/file/1166690750/85f69649-5387-44c2-ba45-81ae13812e36-cover.png"
+                            alt="Bandung">
+                    </div>
+                    <div>Figma</div>
+                </div>
+                <div class="city">
+                    <div class="circle">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2SUP07cmQ1RbS16LEKMlAT8vpbu8RaSmbOw&s"
+                            alt="Jakarta">
+                    </div>
+                    <div>Wordpress</div>
+                </div>
+                <div class="city">
+                    <div class="circle">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmlYCNiuCHdRDbYYHL--ej9vmNHpM0anXzUg&s"
+                            alt="Jakarta">
+                    </div>
+                    <div>Canva</div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="message">
+            <h2>Message Us</h2>
+            <form id="contactForm">
+                <label>Nama: <input type="text" id="name" /></label>
+                <label>Tanggal Lahir: <input type="date" id="birthDate" /></label>
+                <label>Jenis Kelamin:
+                    <input type="radio" name="gender" value="Laki-Laki" /> Laki-Laki
+                    <input type="radio" name="gender" value="Perempuan" /> Perempuan
+                </label>
+                <label>Pesan: <textarea id="messageInput"></textarea></label>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="result"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created by Satria 2025</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
